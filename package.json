@@ -1,0 +1,23 @@
+{
+  "name": "gitloom",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "npx nodemon index.js",
+    "register": "node commands/index.js"
+  },
+  "keywords": [],
+  "author": "Andycacera",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.13.1",
+    "discord-interactions": "^4.4.0",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "3.1.10"
+  }
+}
